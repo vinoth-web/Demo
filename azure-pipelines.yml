@@ -1,13 +1,7 @@
 #Demo Spring application
 
 trigger:
- branches:
-    include:
-      - master
-pr:
-  branches:
-    include:
-      - master
+-main
 
 pool:
   vmImage: ubuntu-latest
